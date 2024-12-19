@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: #c70040;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar li {
+    margin: 0 15px;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Section Styles */
+  .section {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .home {
+    background: #f4f4f4;
+  }
+  
+  .about {
+    background: #ef7215;
+  }
+  
+  .blog {
+    background: #ff5733;
+  }
+  
+  .destination {
+    background: #333333;
+  }
+  
+  .connect {
+    background: #964000;
+  }
+  
+  /* Blog Styles */
+  .blog-post {
+    margin: 1rem auto;
+    max-width: 600px;
+    text-align: left;
+    padding: 1rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Destination Styles */
+  .destination-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 1rem 0;
+  }
+  
+  .destination-card {
+    text-align: center;
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .destination-card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  /* Form Styles */
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  form label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  form input,
+  form textarea,
+  form button {
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  form button {
+    background: #e3b778;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background: #d7bfdc;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background: #ff5733;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
